@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/main.css">
+    @livewireStyles
     <title>Video Game</title>
 </head>
 
@@ -41,6 +42,9 @@
             Powered By <a href="#" class="underline hover:text-gray-800">IGDB API</a>
         </div>
     </footer>
+    @livewireScripts
+    <script src="/js/app.js"></script>
+    @stack('scripts')
 </body>
 
 </html>
